@@ -1,5 +1,0 @@
-torch
-torchvision
-lightning
-tensorboard
-setuptools<81

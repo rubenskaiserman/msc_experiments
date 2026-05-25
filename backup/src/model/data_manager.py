@@ -8,7 +8,7 @@ from typing import Any
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 
-from .lightning_compat import L
+from lightning_compat import L
 
 CIFAR10_MEAN = (0.4914, 0.4822, 0.4465)
 CIFAR10_STD = (0.2470, 0.2435, 0.2616)

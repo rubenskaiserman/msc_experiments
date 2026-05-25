@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 
 from .lightning_compat import L
-from .model import VisionTransformer
+from .vit_cifar10 import VisionTransformer
 from .utils import accuracy_tensor, cosine_warmup_lambda, make_param_groups
 
 

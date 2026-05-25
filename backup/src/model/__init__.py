@@ -1,8 +1,8 @@
 """Refactored CIFAR-10 ViT Lightning baseline."""
 
-from .data import CIFAR10DataModule, DataConfig
+from .data_manager import CIFAR10DataModule, DataConfig
 from .lit_module import LitViTClassifier
-from .model import VisionTransformer
+from .vit_cifar10 import VisionTransformer
 
 __all__ = [
     "CIFAR10DataModule",
